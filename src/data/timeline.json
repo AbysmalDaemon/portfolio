@@ -1,76 +1,80 @@
 [
-	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
-		}
-	},
-	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
-		"icon": "feather:award"
-	},
-	{
-		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
-		}
-	},
-	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
-		}
-	},
-	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
-		"icon": "feather:award"
-	},
-	{
-		"date": "10-11-2018",
-		"title": "First Developer Role",
-		"description": "Began an internship as a junior developer working at Stink Studios",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
-		}
-	},
-	{
-		"date": "11-04-2016",
-		"title": "First Job!",
-		"description": "Began my first part-time job as a junior service desk analyist at CreeperHost",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit CreeperHost",
-			"url": "http://creeperhost.net/"
-		}
-	},
-	{
-		"date": "09-10-2016",
-		"title": "Start University",
-		"description": "Began studying Computer Games Programming at Staffordshire University",
-		"icon": "feather:book"
-	},
-	{
-		"date": "08-09-1997",
-		"title": "Birthday!",
-		"description": "I was born the 9th of August 1997",
-		"icon": "feather:gift"
-	}
+  {
+    "date": "10-30-2024",
+    "title": "Fellow @ TiHAN, IIT Hyderabad",
+    "description": "Finished fellowship at TiHAN. Work included previous internship research as a full-time fellow under the TiHAN Project. Led the Data Collection and RADAR team, managed project execution, mentored juniors, and worked on SLAM and navigation frameworks using automotive RADAR.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Visit TiHAN",
+      "url": "https://tihan.iith.ac.in/"
+    }
+  },
+  {
+    "date": "07-31-2025",
+    "title": "Autonomous Systems Intern @ CognitiCore",
+    "description": "Completed internship at CognitiCore. Researched and implemented sensor fusion, SLAM, path planning and control algorithms.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Visit CognitiCore",
+      "url": "https://www.cogniticore.com/"
+    }
+  },
+  {
+    "date": "06-05-2023",
+    "title": "Intern @ IIT Hyderabad",
+    "description": "Worked for over a year in the RADAR team of the Data Collection Project. Processed automotive RADAR signals and data, applied algorithms for localization and perception, and co-authored publications.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Visit IIT Hyderabad",
+      "url": "https://iith.ac.in/"
+    }
+  },
+  {
+    "date": "07-05-2022",
+    "title": "Intern @ NIT Raipur",
+    "description": "Completed summer internship developing an efficient Devanagari script input–based P300 speller system using BCI. Focused on EEG signal processing, feature extraction, and data-driven research.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Visit NIT Raipur",
+      "url": "https://nitrr.ac.in/"
+    }
+  },
+  {
+    "date": "11-09-2021",
+    "title": "Intern @ Vyorius, India",
+    "description": "Completed internship at Vyorius. Executed robotics projects and applied automation concepts to industrial robots, gaining hands-on experience in system design and workflows.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Visit Vyorius",
+      "url": "https://vyorius.com/"
+    }
+  },
+  {
+    "date": "12-22-2021",
+    "title": "Intern @ Team IshiHara LLC (Japan)",
+    "description": "Completed internship at Team Ishihara LLC. Selected among the top 5 of 6000 applicants for the Road to Shine Program. Collaborated with CEO Masayuki Sugahara on the Tech Boukou program, bridging engineering education and industry, gaining international exposure.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Road to Shine Report",
+      "url": "https://r2s.exchange/2021/reports/02/"
+    }
+  },
+  {
+    "date": "04-30-2024",
+    "title": "Graduated University 🎓",
+    "description": "Successfully completed Bachelor's Degree in Electronics Engineering.",
+    "icon": "feather:award"
+  },
+  {
+    "date": "08-08-2020",
+    "title": "Started Bachelor's in Technology in Electronics and Communication Engineering",
+    "description": "Began pursuing B. Tech in Electronics Engineering with specialization in machine learning and digital media processing.",
+    "icon": "feather:book"
+  },
+  {
+    "date": "07-13-2020",
+    "title": "Graduated High School 🎓",
+    "description": "Completed secondary education with a focus on science and mathematics.",
+    "icon": "feather:award"
+  }
 ]

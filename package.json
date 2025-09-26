@@ -21,7 +21,7 @@
 		"analyze": "cross-env ANALYZE=true next build",
 		"dev": "next",
 		"build": "next build",
-		"postbuild": "next-sitemap",
+		"postbuild": "next-sitemap --config next-sitemap.config.js",
 		"start": "next start",
 		"lint": "next lint",
 		"type-check": "tsc",

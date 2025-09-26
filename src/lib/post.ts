@@ -58,7 +58,8 @@ export async function getPost(slug: string): Promise<Post> {
 	const source = await serialize(content, {
 		scope: data,
 		mdxOptions: {
-			rehypePlugins: [[RehypeAutolinkHeadings, {}]],
+			// add "as any" to bypass type mismatch
+                        rehypePlugins: [[RehypeAutolinkHeadings, {}] as any],
 			remarkPlugins: [RemarkCodeTitles, RemarkEmoji, RemarkPrism, RemarkSlug],
 		},
 	});
