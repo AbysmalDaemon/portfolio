@@ -1,5 +1,4 @@
 import { Layout } from '~/layouts';
-import { Card } from '~/components/Card';
 import { Icon } from '@iconify/react';
 import { NextSeo } from 'next-seo';
 import { useSeoProps } from '~/lib/seo';
@@ -42,7 +41,13 @@ export default function PublicationsPage(): JSX.Element {
 
         <div className="space-y-6">
           {publications.map((pub, index) => (
-            <Card key={index}>
+            <div
+              key={index}
+              className="relative p-6 rounded-lg border-2 border-gray-200 
+                         dark:border-gray-600 bg-gray-50 bg-opacity-75 
+                         dark:bg-gray-900 dark:bg-opacity-75 
+                         backdrop-filter backdrop-blur-sm shadow-lg"
+            >
               <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
                 {pub.title}
               </h2>
@@ -63,7 +68,7 @@ export default function PublicationsPage(): JSX.Element {
                   View Paper
                 </a>
               )}
-            </Card>
+            </div>
           ))}
         </div>
       </div>
