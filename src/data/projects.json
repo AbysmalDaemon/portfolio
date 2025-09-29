@@ -1,0 +1,26 @@
+[
+  {
+    "name": "RADAR-Camera Sensor Calibration",
+    "description": "Developed a novel approach for calibrating RADAR and video sensors using NDLT. Built deep learning pipelines (CNN, VGG, RetinaNet) for real-time sensor fusion and automated RADAR annotations.",
+    "icon": "📡",
+    "post": null
+  },
+  {
+    "name": "ADAS Development with RADAR",
+    "description": "Designed Automatic Emergency Braking (AEB) system using 360° Navtech RADAR. Improved safety and navigation capabilities for autonomous mobility.",
+    "icon": "🚘",
+    "post": null
+  },
+  {
+    "name": "Multimodal Dataset Generation",
+    "description": "Built synchronized data collection stack integrating RADAR, LiDAR, cameras, and GNSS. Collected multimodal data across varied conditions for autonomous navigation research.",
+    "icon": "🛰️",
+    "post": null
+  },
+  {
+    "name": "RADAR SLAM",
+    "description": "Led a SLAM project using 360° Navtech RADAR. Processed FFT data for feature extraction, odometry estimation, and environmental mapping.",
+    "icon": "🗺️",
+    "post": null
+  }
+]
