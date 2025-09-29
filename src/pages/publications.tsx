@@ -24,7 +24,7 @@ const publications = [
     authors: 'A. Dasgupta, O. Gopi, A. Chowdhury, S. Behera',
     venue: 'Recent Trends in AI Enabled Technologies (ThinkAI 2023)',
     year: 2024,
-    link: 'https://ieeexplore.ieee.org/abstract/document/10588583',
+    link: 'https://link.springer.com/chapter/10.1007/978-3-031-59114-3_2',
   },
 ];
 
