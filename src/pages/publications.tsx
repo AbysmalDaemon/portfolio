@@ -15,7 +15,7 @@ const publications = [
     title: 'TIAND: A Multimodal Dataset for Autonomy on Indian Roads',
     authors:
       'N. Kumar, A. S, A. Thankur, O. Gopi, A. Dasgupta, A. Algole, B. Anand, V. Satyanand Mutnuri, S. Reddy, N. Praveen Babu, S. Saripalli and R. Pachamuthu',
-    venue: '2024 IEEE Symposium on Intelligent Vehicle',
+    venue: 'IEEE Symposium on Intelligent Vehicle',
     year: 2024,
     link: 'https://ieeexplore.ieee.org/abstract/document/10588583',
   },
