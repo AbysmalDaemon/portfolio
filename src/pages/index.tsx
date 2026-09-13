@@ -95,7 +95,7 @@ export default function HomePage(): JSX.Element {
 						{description}
 					</Animate>
 
-					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
+					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full sm:w-max mx-auto mt-8 sm:mt-4">
 						{ACTIONS.map((action, index) => {
 							if (action.type !== NavigationItemType.LINK) return null;
 
@@ -110,7 +110,7 @@ export default function HomePage(): JSX.Element {
 									transition={{
 										delay: 0.1 * (index + 2) + 0.5,
 									}}>
-									<Button.Outline href={action.href}>
+									<Button.Outline className="whitespace-nowrap" href={action.href}>
 										{action.icon}
 										<span>{action.text}</span>
 									</Button.Outline>
