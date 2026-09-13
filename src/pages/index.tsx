@@ -31,6 +31,12 @@ const ACTIONS: Array<NavigationItem> = [
   },
   {
     type: NavigationItemType.LINK,
+    href: '/timeline',
+    icon: <Icon className="mr-3" icon="feather:clock" />,
+    text: 'Timeline',
+  },
+  {
+    type: NavigationItemType.LINK,
     external: true,
     href: '/resume.pdf', // Make sure to drop resume.pdf into /public
     icon: <Icon className="mr-3" icon="feather:file-text" />,
