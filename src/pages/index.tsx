@@ -69,14 +69,14 @@ export default function HomePage(): JSX.Element {
 		<Layout.Default>
 			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<div className="min-h-screen flex items-center justify-center py-12">
-				<div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
+				<div className="max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-5xl w-full space-y-8 text-center">
 					<Animate
 						as="h1"
 						animation={{
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
+						className="max-w-3xl mx-auto text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-8xl tracking-tight font-extrabold">
 						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Ayush, <br className="hidden sm:block" />an{' '}
 						<Pill.Standard className="mt-4">engineer</Pill.Standard>
@@ -95,7 +95,7 @@ export default function HomePage(): JSX.Element {
 						{description}
 					</Animate>
 
-					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full sm:w-screen sm:max-w-none sm:relative sm:left-1/2 sm:-translate-x-1/2 mt-8 sm:mt-4">
+					<div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4 w-full mt-8 sm:mt-4">
 						{ACTIONS.map((action, index) => {
 							if (action.type !== NavigationItemType.LINK) return null;
 
