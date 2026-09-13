@@ -63,7 +63,7 @@ export default function HomePage(): JSX.Element {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am an electronics engineer with an interest in robotics, automation and signal processing`;
+	const description = `Autonomy engineer working across perception, localisation and robotics.`;
 
 	return (
 		<Layout.Default>
@@ -95,7 +95,7 @@ export default function HomePage(): JSX.Element {
 						{description}
 					</Animate>
 
-					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full sm:w-max mx-auto mt-8 sm:mt-4">
+					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full sm:w-screen sm:max-w-none sm:relative sm:left-1/2 sm:-translate-x-1/2 mt-8 sm:mt-4">
 						{ACTIONS.map((action, index) => {
 							if (action.type !== NavigationItemType.LINK) return null;
 
