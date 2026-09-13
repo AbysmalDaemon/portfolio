@@ -1,7 +1,6 @@
 import { useTheme } from 'next-themes';
 
-import { Status } from '~/components';
-import { usePersistantState, useStatus } from '~/lib';
+import { usePersistantState } from '~/lib';
 
 import { NavigationItemType, Theme } from '~/types';
 
@@ -38,24 +37,9 @@ export function useNavigation(): {
 } {
 	const state = usePersistantState();
 	const { animations: background, sound } = state.get();
-	const { color, loading, status } = useStatus();
 	const { theme, setTheme } = useTheme();
 
-	const menuItems: NavigationItems = [
-		...staticMenuItems,
-		...(!loading && status.discord_status !== 'offline'
-			? [
-					[
-						{
-							type: NavigationItemType.LINK,
-							icon: <Status.Indicator color={color} pulse />,
-							text: 'Status',
-							href: '/status',
-						} as NavigationItem,
-					],
-			  ]
-			: []),
-	];
+	const menuItems: NavigationItems = staticMenuItems;
 
 	const settingsItems: NavigationItems = [
 		[
