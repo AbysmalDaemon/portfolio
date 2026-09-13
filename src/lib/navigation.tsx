@@ -11,32 +11,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
 		{
 			type: NavigationItemType.LINK,
-			icon: 'feather:home',
-			text: 'Home',
-			href: '/',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:copy',
-			text: 'Projects',
-			href: '/projects',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:clock',
-			text: 'Timeline',
-			href: '/timeline',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:book-open',
-			text: 'Publications',
-			href: '/publications',
-		},
-	],
-	[
-		{
-			type: NavigationItemType.LINK,
 			icon: 'feather:linkedin',
 			text: 'LinkedIn',
 			href: 'https://linkedin.com/in/ayush-dasgupta',
