@@ -1,5 +1,25 @@
 [
   {
+    "date": "10-14-2026",
+    "title": "Werkstudent - Perception & Localisation @ FERNRIDE",
+    "description": "Worked as a working student in FERNRIDE's Perception & Localisation team from May 2026 through October 14, 2026, contributing to autonomy-focused perception and localisation work.",
+    "icon": "feather:briefcase",
+    "link": {
+      "text": "Visit FERNRIDE",
+      "url": "https://www.fernride.com/"
+    }
+  },
+  {
+    "date": "04-01-2026",
+    "title": "Started M.Sc. in Autonomy Technologies @ FAU Erlangen-Nürnberg",
+    "description": "Began the Master of Science in Autonomy Technologies at FAU Erlangen-Nürnberg.",
+    "icon": "feather:book",
+    "link": {
+      "text": "Visit FAU",
+      "url": "https://www.fau.eu/"
+    }
+  },
+  {
     "date": "10-30-2024",
     "title": "Fellow @ TiHAN, IIT Hyderabad",
     "description": "Finished fellowship at TiHAN. Work included previous internship research as a full-time fellow under the TiHAN Project. Led the Data Collection and RADAR team, managed project execution, mentored juniors, and worked on SLAM and navigation frameworks using automotive RADAR.",
