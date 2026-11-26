@@ -1,7 +1,6 @@
-import { format, parse } from 'date-fns';
 import { Icon } from '@iconify/react';
 
-import { Button, Pill } from '~/components';
+import { Button } from '~/components';
 import { Layout } from '~/layouts';
 
 import type { GetStaticProps } from 'next';
@@ -26,11 +25,7 @@ export const getStaticProps: GetStaticProps<TimelineProps> = async () => {
 };
 
 export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): JSX.Element {
-	const timeline = rawTimeline.map((event) => ({
-		...event,
-		// Note: Custom parser needed as Safari on iOS doesn't like the standard `new Date()` parsing
-		date: parse(event.date.toString(), 'MM-dd-yyyy', new Date()),
-	}));
+	const timeline = rawTimeline;
 
 	return (
 		<Layout.Default seo={{ title: 'timeline' }}>
@@ -59,10 +54,6 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 										<div className="min-w-0 flex-1">
 											<h1 className="flex flex-wrap justify-between mb-2 text-gray-500 dark:text-white text-lg tracking-tight font-bold">
 												<span>{event.title}</span>
-												<span className="flex-1 sm:hidden" />
-												<Pill.Date className="mt-2 sm:mt-0" small={true}>
-													{format(event.date, 'PPP')}
-												</Pill.Date>
 											</h1>
 
 											<p className="my-2 text-gray-300 text-base">
