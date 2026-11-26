@@ -7,7 +7,8 @@
     "link": {
       "text": "Visit Quantum Systems",
       "url": "https://quantum-systems.com/"
-    }
+    },
+    "period": "Nov 2026 – Present"
   },
   {
     "date": "10-14-2026",
@@ -17,7 +18,8 @@
     "link": {
       "text": "Visit FERNRIDE",
       "url": "https://www.fernride.com/"
-    }
+    },
+    "period": "May 2026 – Oct 2026"
   },
   {
     "date": "04-01-2026",
@@ -27,7 +29,8 @@
     "link": {
       "text": "Visit FAU",
       "url": "https://www.fau.eu/"
-    }
+    },
+    "period": "Apr 2026 – Present"
   },
   {
     "date": "10-30-2024",
@@ -37,7 +40,8 @@
     "link": {
       "text": "Visit TiHAN",
       "url": "https://tihan.iith.ac.in/"
-    }
+    },
+    "period": "Jun 2024 – Oct 2024"
   },
   {
     "date": "07-31-2025",
@@ -47,7 +51,8 @@
     "link": {
       "text": "Visit CognitiCore",
       "url": "https://www.cogniticore.com/"
-    }
+    },
+    "period": "Nov 2024 – Jul 2025"
   },
   {
     "date": "06-05-2023",
@@ -57,7 +62,8 @@
     "link": {
       "text": "Visit IIT Hyderabad",
       "url": "https://iith.ac.in/"
-    }
+    },
+    "period": "May 2023 – Jun 2024"
   },
   {
     "date": "07-05-2022",
@@ -67,7 +73,8 @@
     "link": {
       "text": "Visit NIT Raipur",
       "url": "https://nitrr.ac.in/"
-    }
+    },
+    "period": "May 2022 – Jul 2022"
   },
   {
     "date": "11-09-2021",
@@ -77,7 +84,8 @@
     "link": {
       "text": "Visit Vyorius",
       "url": "https://vyorius.com/"
-    }
+    },
+    "period": "Sep 2021 – Nov 2021"
   },
   {
     "date": "12-22-2021",
@@ -87,24 +95,28 @@
     "link": {
       "text": "Road to Shine Report",
       "url": "https://r2s.exchange/2021/reports/02/"
-    }
+    },
+    "period": "Sep 2021 – Dec 2021"
   },
   {
     "date": "04-30-2024",
     "title": "Graduated University 🎓",
     "description": "Successfully completed Bachelor's Degree in Electronics Engineering.",
-    "icon": "feather:award"
+    "icon": "feather:award",
+    "period": "Apr 2024"
   },
   {
     "date": "08-08-2020",
     "title": "Started Bachelor's in Technology in Electronics and Communication Engineering",
     "description": "Began pursuing B. Tech in Electronics Engineering with specialization in machine learning and digital media processing.",
-    "icon": "feather:book"
+    "icon": "feather:book",
+    "period": "Aug 2020"
   },
   {
     "date": "07-13-2020",
     "title": "Graduated High School 🎓",
     "description": "Completed secondary education with a focus on science and mathematics.",
-    "icon": "feather:award"
+    "icon": "feather:award",
+    "period": "Jul 2020"
   }
 ]
