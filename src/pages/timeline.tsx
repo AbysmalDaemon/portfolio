@@ -52,9 +52,12 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps): 
 										</div>
 
 										<div className="min-w-0 flex-1">
-											<h1 className="flex flex-wrap justify-between mb-2 text-gray-500 dark:text-white text-lg tracking-tight font-bold">
+											<h1 className="flex flex-wrap justify-between mb-1 text-gray-500 dark:text-white text-lg tracking-tight font-bold">
 												<span>{event.title}</span>
 											</h1>
+											<p className="mb-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+												{event.period}
+											</p>
 
 											<p className="my-2 text-gray-300 text-base">
 												{event.description}
